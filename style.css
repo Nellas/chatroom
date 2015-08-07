@@ -10,7 +10,7 @@ html {
 body {
     height: 100%;
     width: 100%;
-    background-image: url('http://i.imgur.com/gRNfCU6.jpg');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/29/Linux_command-line._Bash._GNOME_Terminal._screenshot.png');
     background-position: right;
     background-repeat: no-repeat;
     background-color: #040404;
@@ -45,7 +45,6 @@ body {
     margin-top: 2%;
     margin-left: 5%;
     background: #040404;
-    padding: 5px;
     border: 1px solid #00e700;
     border-radius: 10px;
 }
@@ -115,6 +114,10 @@ input {
 
 }
 
+.drop-down:focus {
+    outline: none;
+}
+
 hr {
     border-color: #00e700;
 }
@@ -130,12 +133,10 @@ hr {
 
 ul {
     list-style-type: none;
-    margin-left: 0;
 }
 
 li {
     text-align: left;
-    margin-left: -4%;
     font-family: 'Play', sans-serif;
     font-size: 13px;
     font-weight: lighter;

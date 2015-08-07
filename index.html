@@ -26,7 +26,7 @@
       <hr>
       <div class="messages-container">
           <ul class="chatMessages">
-              <li class="messageContent" ng-repeat="message in messages | filter:searchTerm | orderBy: 'createdAt': reverse"><span class="date">{{getDate(message.createdAt)}}:</span> &nbsp                <span class="anon">~$: </span> {{message.text}} </li>
+              <li class="messageContent" ng-repeat="message in messages | filter:searchTerm | orderBy: 'createdAt': reverse"><span class="date">{{message.createdAt | date}}:</span>&nbsp<span class="anon">~$: </span> {{message.text}} </li>
           </ul>
           </div>
       </div>
